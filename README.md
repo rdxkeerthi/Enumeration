@@ -122,7 +122,6 @@ Open terminal and try execute some kali linux commands
 
 ```
 dnsenum example.com
-
 ```
 
 ## Output:
@@ -136,7 +135,6 @@ dnsenum example.com
 
 ```
 smtp-user-enum -M VRFY -U users.txt -t <target-ip>
-
 ```
   
  ## Output
@@ -151,7 +149,6 @@ smtp-user-enum -M VRFY -U users.txt -t <target-ip>
 
 ```
 nmap -p 25 --script smtp-enum-users.nse <target-ip>
-
 ```
 ## OUTPUT:
 
